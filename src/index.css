@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+ul{
+  background-color: grey;
+  padding: 15px;
+}
+ul li {
+  display: inline-block;
+  
+  margin: 0;
+}
+li a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+li a:hover{
+  background-color: #fff;
+  color: grey;
+}
+.active{
+  background-color: #fff;
+  color: grey;
+}
+.card{
+  display: inline-block;
+  /* border: 2px solid black; */
+  margin: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow:  10px 5px rgba(14, 13, 13, 0.212);
+}
